@@ -1,0 +1,91 @@
+body {
+	background: url('../images/pngs/webpage.background.png');
+	color: #333;
+	font-family: 'Roboto Mono', monospace;
+}
+
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+a:hover { color: Tomato; }
+
+header, nav, main, footer {
+	width: 80%;
+	margin: auto;
+}
+
+
+/* Header styles */
+header { 
+	color: white;
+	min-height: 100px;
+	margin-top: 30px;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	line-height: 1.5em;
+	word-spacing: 2em;
+	font-size: 40px;
+	letter-spacing: .2em;
+}
+
+header h1 {
+	padding: 40px 60px;
+	color: white;
+}
+
+
+/* Nav styles */
+nav { background-color: 0; }
+nav ul { 
+	display: flex;
+	justify-content: flex-end;
+}
+nav li { padding: 10px 10px; }
+nav a { color: white; }
+nav a:hover { color: darkgreen; }
+
+
+/* Main styles */
+main { 
+	background-color: #fff;
+	display: grid;
+	grid-template-columns: 60% 40%;
+	border-radius: 20px;
+}
+
+section {
+	padding: 40px 60px;
+}
+
+section h2{
+	color:tomato;
+}
+
+aside h2{
+	color:tomato;
+}
+
+section ul, aside ul {
+	list-style-type: square;
+	margin-top: 20px; 
+	margin-left: 30px;
+	line-height: 1.5em;
+}
+
+aside {
+	padding: 40px 10px;
+}
+
+
+
+/* Footer styles */
+footer { 
+	background-color: 0;
+	color: white;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+ }
+ footer p { padding: 20px; }
