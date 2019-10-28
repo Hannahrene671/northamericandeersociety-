@@ -3,44 +3,50 @@
 
 		.whitetail{
 			background-image: url('../images/pngs/whitetailpage.png');
-			background-size: fixed;
-			background-height: 1000px;
+			background-size: cover;
+		
 			background-color: blanchedalmond;
+			background-repeat: no-repeat;
 		}
 
 		.nads{
 			background-image: url('../images/pngs/aboutpage.png');
-			background-size: fixed;
-			background-height: 1000px;
+			background-size: cover;
+			
 			background-color: blanchedalmond;
+			background-repeat: no-repeat;
 		}
 
 		.mule{
 			background-image: url('../images/pngs/mulepage.png');
-			background-size: fixed;
-			background-height: 1000px;
+			background-size: cover;
+			
 			background-color: blanchedalmond;
+			background-repeat: no-repeat;
 		}
 
 		.moose{
 			background-image: url('../images/pngs/moosepage.png');
-			background-size: fixed;
-			background-height: 2000px;
+			background-size: cover;
+			
 			background-color: blanchedalmond;
+			background-repeat: no-repeat;
 		}
 
 		.elk{
 			background-image: url('../images/pngs/elkpage.png');
-			background-size: fixed;
-			background-height: 1000px;
+			background-size: cover;
+			
 			background-color: blanchedalmond;
+			background-repeat: no-repeat;
 		}
 
 		.blacktail{
 		 	background-image: url('../images/pngs/blacktailpage.png');
-		 	background-size: fixed;
-		 	background-height: 1000px;
+		 	background-size: cover;
+		 	
 			background-color: blanchedalmond;
+			background-repeat: no-repeat;
 		}
 
 
@@ -56,6 +62,7 @@
 		.serif {
 			font-family: 'DM Serif Text', serif;
 			color: #FFF7E5;
+			letter-spacing: 2px;
 		}
 
 /* Nav Bar */
@@ -96,10 +103,12 @@
 
 		nav li {
 			font-family: 'DM Serif Text', serif;
+			letter-spacing: 1px;
 			color: white;
 			display: inline-block;
-			padding: 14px;
+			padding: 8px;
 			margin: 0;
+			padding-left:50px;
 			}
 
 		a{
@@ -113,7 +122,8 @@
 
 		header img {
 			display: inline-block;
-			padding: 15px;
+			padding: 20px;
+			padding-left:25px;
 
 		}
 
@@ -136,8 +146,10 @@
 
 
 		.navbar a:hover, .dropdown:hover .dropdownbutton {
-		background-color: #C1A787;
-		   border-radius: 25px;
+		background-color: white;
+		border-radius: 25px;
+		color:black;
+		letter-spacing: 2px;
 		}
 
 
@@ -166,7 +178,7 @@
 		.dropdown:hover .dropdown-content {
 		  display: block;
 		  background-color: #C1A787;
-		   border-radius: 15px;
+		  border-radius: 15px;
 		}
 
 		.navbar {
@@ -190,24 +202,27 @@
 	margin: 0;
 	padding: 0;
 	position: absolute;
-	top:315px;
-	left:325px;
+	width: 400px;
+	top:300px;
+	left:275px;
 }
 
 .elkcontent{
 	margin: 0;
 	padding: 0;
 	position: absolute;
-	top:330px;
-	left:975px;
+	top:125px;
+	left:80px;
+	width: 315px;
 }
 
 .blackcontent{
 	margin: 0;
 	padding: 0;
 	position: absolute;
-	top:300px;
-	left:880px;
+	top:200px;
+	left:760px;
+	width: 430px;
 }
 
 .moosecontent{
@@ -216,22 +231,25 @@
 	position: absolute;
 	top:325px;
 	left:925px;
+	width: 300px;
 }
 
 .mulecontent{
 	margin: 0;
 	padding: 0;
 	position: absolute;
-	top:90px;
+	top:70px;
 	left:125px;
+	width: 300px;
 }
 
 .whitecontent{
 	margin: 0;
 	padding: 0;
 	position: absolute;
-	top:200px;
+	top:270px;
 	left:100px;
+	width: 470px;
 }
 
 
