@@ -1,56 +1,56 @@
 
-/* Backgrounds */
+/* BACKGROUNDS */
 
 		.whitetail{
 			background-image: url('../images/pngs/whitetailpage.png');
 			background-size: cover;
-		
 			background-color: blanchedalmond;
 			background-repeat: no-repeat;
+			background-position: fixed;
 		}
 
 		.nads{
 			background-image: url('../images/pngs/aboutpage.png');
 			background-size: cover;
-			
 			background-color: blanchedalmond;
 			background-repeat: no-repeat;
+			background-position: fixed;
 		}
 
 		.mule{
 			background-image: url('../images/pngs/mulepage.png');
 			background-size: cover;
-			
 			background-color: blanchedalmond;
 			background-repeat: no-repeat;
+			background-position: fixed;
 		}
 
 		.moose{
 			background-image: url('../images/pngs/moosepage.png');
 			background-size: cover;
-			
 			background-color: blanchedalmond;
 			background-repeat: no-repeat;
+			background-position: fixed;
 		}
 
 		.elk{
 			background-image: url('../images/pngs/elkpage.png');
 			background-size: cover;
-			
 			background-color: blanchedalmond;
 			background-repeat: no-repeat;
+			background-position: fixed;
 		}
 
 		.blacktail{
 		 	background-image: url('../images/pngs/blacktailpage.png');
 		 	background-size: cover;
-		 	
 			background-color: blanchedalmond;
 			background-repeat: no-repeat;
+			background-position: fixed;
 		}
 
 
-/* Fonts */
+/* FONTS */
 
 
 		.sans{
@@ -65,12 +65,14 @@
 			letter-spacing: 2px;
 		}
 
-/* Nav Bar */
+/* NAVBAR */
 
 		body{
-			width: 100%;
+			width: 1000px;
 			margin:0;
 		}
+
+
 
 		header{
 			
@@ -80,6 +82,8 @@
 			height: 80px;
 			border:0;
 		}
+
+
 
 		nav{
 			width: 100%;
@@ -93,6 +97,8 @@
 			margin:0;
 		}
 
+
+
 		nav ul {
 			list-style-type: none;
 			color: white;
@@ -100,6 +106,8 @@
 			 padding:15px;
 			 margin:0;
 		}
+
+
 
 		nav li {
 			font-family: 'DM Serif Text', serif;
@@ -109,7 +117,9 @@
 			padding: 8px;
 			margin: 0;
 			padding-left:50px;
-			}
+		}
+
+		
 
 		a{
 			text-decoration: none;
@@ -128,61 +138,16 @@
 		}
 
 
-		.dropdown {
-  			float: left;
-  			overflow: hidden;
-  			color: #D8860B;
-  			padding: 0px;
-		}
-
-
-
-		.dropdown .dropdownbutton {  
-		  border-radius: 15px;
-		  outline: none;
-		  display: inline-block;
-		  color: white;
-		}
-
-
-		.navbar a:hover, .dropdown:hover .dropdownbutton {
+ 		.navbar li a:hover {
 		background-color: white;
 		border-radius: 25px;
 		color:black;
 		letter-spacing: 2px;
 		}
 
-
-		.dropdown-content {
-		  display: none;
-		  position: absolute;
-		  background-color: white;
-		  min-width: 160px;
-		  z-index: 1;
-		}
-
-		.dropdown-content a {
-		  float: none;
-		  color: white;
-		  padding: 5px 5px;
-		  text-decoration: none;
-		  display: block;
-		  text-align: left;
-		}
-
-		.dropdown-content a:hover {
-		 background-color: #6F5013;
-		  border-radius: 15px;
-		}
-
-		.dropdown:hover .dropdown-content {
-		  display: block;
-		  background-color: #C1A787;
-		  border-radius: 15px;
-		}
-
 		.navbar {
 		  overflow: hidden;
+		  width: 1000px;
 		 
 		}
 
@@ -195,7 +160,7 @@
 		  text-decoration: none;
 		}
 
-/* Body */
+/* BODY */
 
 
 .indexcontent{
@@ -238,8 +203,8 @@
 	margin: 0;
 	padding: 0;
 	position: absolute;
-	top:70px;
-	left:125px;
+	top:425px;
+	left:170px;
 	width: 300px;
 }
 
@@ -253,6 +218,35 @@
 }
 
 
+/* FOOTER */
+
+footer{
+	position:absolute;
+	top:700px;
+	left:50px;
+	opacity: .2;
+}
+
+
+
+
+/* ANIMATION */
+
+.fade-in{
+
+	animation: fadeIn 4.5s;
+}
+
+@keyframes fadeIn {
+
+from{
+	opacity: 0;
+}
+to{
+	opacity: 1;
+}
+
+}
 
 
 
